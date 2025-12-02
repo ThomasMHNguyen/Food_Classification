@@ -16,7 +16,7 @@ Here is a breakdown of the Jupyter Notebooks:
 # Results
 
 <div>
-<img src="./output_files/best_worst_food.jpg.png" width="50%"/>
+<img src="./output_files/best_worst_food.jpg" width="40%"/>
 </div>
 
 Based on our classification model, the most distinguishable food dishes (based on the f1 score) are:
@@ -36,7 +36,7 @@ Conversely, the least distinguishable dishes (based on the f1 score) are:
 - Ceviche
 
 <div>
-<img src="./images/umap_tuna_beef_tartare.png" width="50%"/>
+<img src="./output_files/umap_tuna_beef_tartare.png" width="30%"/>
 </div>
 
 One of the dishes that was often confused for Tuna Tartare was Beef Tartare. I performed  analysis of the RGB values of images for these dishes. The above image is a UMAP plot of the RGB values between 100 images of tuna tartare and 100 images of beef tartare. UMAP performs a non-linear dimensional reduction compared to principal component analysis (PCA). As seen, the UMAP plot is unable to fully separate the RGB features between the two dishes, emphasizing that the images are similar to each other.
